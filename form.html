@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="form.css">
+
+
+    <title>Application Form</title>
+</head>
+
+<body>
+    <div class="container-wrapper">
+    <div class="container">
+        <div class="wrapper">
+            <div class="ApplicationForm">Application Form</div>
+            <form    name="formId" id="formId">
+                <div class="form-container">
+                    <div class="details form-element">
+                        <!-- <label class="name">  </label> -->
+                        <input type="text" name="full Name" id="name"  Placeholder="Enter Your Name" >
+                    </div>
+
+                    <div class="phonenumber form-element">
+                        <!-- <label class="number">  </label> -->
+                        <input type="number" name="phone number" id="number"  Placeholder="Enter Your Number">
+                    </div>
+
+                    <div class="email form-element">
+                        <!-- <label class="Email"></label> -->
+                        <input type="Email" name="email id" id="email"  Placeholder="Enter Your Email Adress ">
+                    </div>
+
+                     <div class="gender-details form-element">
+                        <label class="title">Gender </label>
+                        <div>
+                            <input type="radio" name="gender" id="male" value="Male">
+                            <label for="Male">Male</label>
+    
+                            <input type="radio" name="gender" id="female" value="Female">
+                            <label for="female">Female</label>
+    
+                            <input type="radio" name="gender" id="other" value="Other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="language details form-element">
+                        <label class="title">Language  </label>
+                        <div>
+                            <input type="checkbox" name="language" value="Hindi">
+                            <label for="Male">Hindi</label>
+    
+                            <input type="checkbox" name="language" value="English">
+                            <label for="Male">English</label>
+    
+                            <input type="checkbox" name="language" value="Gujrati">
+                            <label for="Male">Gujrati</label>
+                        </div>
+                        
+
+                    </div>
+                    <div class="Hobbies form-element">
+                        <label class="title" for="Hobbies">Hobbies </label>
+                        <select name="hobbies" id="hobbies">
+                            <option value="Football">football</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="Dance">Dance</option>
+                            <option value="Music">Music</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Submit-button ">
+                    <input class="btn" id="btn-1" type="submit" value="submit">
+                    <input class="btn"  id="showInfo"  type="button"  value="Show Info">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <table class="showInfo">
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+    <script src="form.js"></script>
+    <!-- <script src="validation.js"></script> -->
+</body>
+
+</html>

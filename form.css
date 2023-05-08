@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: rgb(35 28 159);
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: rgb(211, 228, 235);
+
+}
+
+.container-wrapper {
+	height: 100vh;
+	width: 100vw;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+
+.container {
+	height: 520px;
+	width: 450px;
+	background: #fff;
+	padding: 30px 40px;
+	border-radius: 5px;
+	box-shadow: 12px 15px 17px -1px rgb(6 65 67);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 15px
+}
+
+.container .ApplicationForm {
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	padding: 10px;
+	height: 50px;
+	width: 100%;
+	background: linear-gradient(10deg, #0062cc, #3affff);
+	color: whitesmoke;
+}
+
+form {
+	width: 300px;
+	height: calc(100% - 50px);
+	overflow: hidden;
+}
+
+.form-container {
+	width: 100%;
+	height: calc(100% - 60px);
+	/* overflow: auto;*/
+}
+
+.Submit-button {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 14px;
+}
+
+.form-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50px;
+	width: 100%;
+	margin: 5px 0 10px 0;
+	color: rgb(35 28 159);
+	
+}
+
+::-webkit-input-placeholder {
+
+	font-size: .7em;
+	color: #0062cc;
+	opacity: .8;
+	background: whitesmoke;
+	padding: 5px;
+	border-radius: 10px;
+	border-style: none;
+}
+
+:hover::-webkit-input-placeholder {
+	color: #bc2a2a;
+}
+
+/* input.btn:hover {
+	background-color: #931111;
+	color: #1f8edd;
+	border: 2px solid #d81e1e;
+}*/
+/* #showInfo{
+	display: none;
+} */
+.btn {
+	width: 145px;
+	height: 40px;
+	background: #0062cc;
+	color: white;
+	border-radius: 5px;
+
+}
+
+
+input:disabled,
+input[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.container-2 {
+	/* border: 2px solid rgb(235, 227, 227);*/
+	width: 500px;
+	height: 450px;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	border: 1px solid black;
+	width: fit-content;
+	padding: 10px;
+
+}
+
+input[type=text],
+input[type=number],
+input[type=email], select {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	
+
+}
+
+label.title {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 5px;
+} 
+
+
+/* width 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+ Track 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+ Handle
+::-webkit-scrollbar-thumb {
+  background: #008eff;
+  border-radius: 18px;
+}
+
+/* Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}*/
